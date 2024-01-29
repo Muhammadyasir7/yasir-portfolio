@@ -1,0 +1,30 @@
+@import "../CssVariables/variable.scss";
+
+.nav-list{
+    border: 1px solid $borderColor;
+    background-color: $bg-color;
+    right: 50px;
+    top: 30%;
+    ul{
+        a{
+            li{
+                color: $light-grey;
+                &:hover{
+                    color: $primary-color;
+                }
+                svg{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.color-prim{
+    color: $primary-color !important;
+}
+.color-grey{
+    color: $light-grey;
+}
+.span-sec{
+    font-size: 10px;
+}

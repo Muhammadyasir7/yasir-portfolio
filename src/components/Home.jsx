@@ -10,7 +10,7 @@ function Home() {
             </span>
         </div>
         <div className="my-10">
-            <h1 className="text-6xl">Say Hi from <span className="color-prim">Yasir</span>,<br /> Software Engineer,<br /> Web Developer</h1>
+            <h1 className="text-6xl leading-tight">Say Hi from <span className="color-prim">Yasir</span>,<br /> Web Developer,<br /> App Developer </h1>
         </div>
         <p className="text-xs color-grey">I design and code beautifully simple things and I love what I do. <br />Just simple like that</p>
         <div className="my-10 flex gap-4">

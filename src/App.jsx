@@ -2,7 +2,11 @@ import VIDEO from "../src/assets/bg-video.mp4"
 import Sidebar from "./components/sidebar/Sidebar";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import About from "./components/About";
 import "./App.scss"
+import Resume from "./components/Resume";
+import Speciallization from "./components/Speciallization";
+import Skills from "./components/Skills";
 function App(){
   return(
     <div>
@@ -10,13 +14,17 @@ function App(){
         <source src={VIDEO} />
       </video>
       <div className="h-full flex justify-between ">
-      <aside className="">
+      <aside className="fixed">
           <Sidebar className="" />
         </aside>
-        <div>
+        <div className="width-half">
             <Home />
+            <About />
+            <Resume />
+            <Speciallization />
+            <Skills />
         </div>
-        <div className="relative">
+        <div className="navbar">
           <Navbar />
         </div>
       </div>

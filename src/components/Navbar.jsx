@@ -13,7 +13,7 @@ import { BiMessage } from "react-icons/bi";
 
 function Navbar(){
     return (
-      <div className="border rounded-full nav-list absolute">
+      <div className="border rounded-full nav-list">
         <ul className="flex flex-col justify-between gap-4 px-2 py-4">
 
         <a href=""><li><TiHome /></li></a>

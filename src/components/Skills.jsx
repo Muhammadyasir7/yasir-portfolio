@@ -1,5 +1,12 @@
 import { RiShapesFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa6";
+import { FaBootstrap } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa6";
+import { SiAntdesign } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io";
+
+import "./style.scss"
 
 function Skills() {
   return (
@@ -13,33 +20,48 @@ function Skills() {
                 <span className="color-prim"> Advantages</span></h1>
             </div>
             <div className="flex flex-wrap">
-                <div className="p-10 border">
-                    <div className="flex flex-col p-10 border">
+                <div className="icon-size">
+                    <div>
                         <FaReact />
-                        80%
+                        <span className="percent">80% </span>
                     </div>
                     <p>React</p>
                 </div>
-                <div className="p-10 border">
-                    <div className="flex flex-col p-10 border">
-                        <FaReact />
-                        80%
+                <div className="icon-size">
+                    <div>
+                        <IoLogoJavascript />
+                        <span className="percent">80% </span>
+
                     </div>
-                    <p>React</p>
+                    <p>JavaScript</p>
                 </div>
-                <div className="p-10 border">
-                    <div className="flex flex-col p-10 border">
-                        <FaReact />
-                        80%
+                <div className="icon-size">
+                    <div>
+                        <FaBootstrap />
+                        <span className="percent">80% </span>
                     </div>
-                    <p>React</p>
+                    <p>Bootstrap</p>
                 </div>
-                <div className="p-10 border">
-                    <div className="flex flex-col p-10 border">
-                        <FaReact />
-                        80%
+                <div className="icon-size">
+                    <div>
+                        <IoLogoGithub />
+                        <span className="percent">80% </span>
                     </div>
-                    <p>React</p>
+                    <p>GitHub</p>
+                </div>
+                <div className="icon-size">
+                    <div>
+                        <SiAntdesign     />
+                        <span className="percent">80% </span>
+                    </div>
+                    <p>Ant Design</p>
+                </div>
+                <div className="icon-size">
+                    <div>
+                    <FaDocker />
+                        <span className="percent">80% </span>
+                    </div>
+                    <p>Docker</p>
                 </div>
             </div>
         </div>

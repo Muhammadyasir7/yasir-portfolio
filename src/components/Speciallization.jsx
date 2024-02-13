@@ -17,17 +17,17 @@ function Speciallization() {
             </div>
           <div>
             <ul className="">
-              <li className="border rounded-2xl p-8">
+              <li className="border rounded-2xl p-8 border-color">
                 <h1 className="flex justify-between items-center">Web Development <span className="color-prim text-3xl"><FaCode /></span></h1>
                 <p className="span-sec color-grey">I build website with HTML, CSS, JavaScript, React</p>
                 <p className="mt-5 span-sec">5 PROJECTS</p>
               </li>
-              <li className="border rounded-2xl p-8 my-3">
+              <li className="border rounded-2xl p-8 my-3 border-color">
                 <h1 className="flex justify-between items-center">Web Development <span className="color-prim text-2xl"><FaBolt /></span></h1>
                 <p className="span-sec color-grey">I build website with HTML, CSS, JavaScript, React</p>
                 <p className="mt-5 span-sec">5 PROJECTS</p>
               </li>
-              <li className="border rounded-2xl p-8">
+              <li className="border rounded-2xl p-8 border-color">
                 <h1 className="flex justify-between items-center">Web Development <span className="color-prim text-2xl"><FaBarsStaggered /></span></h1>
                 <p className="span-sec color-grey">I build website with HTML, CSS, JavaScript, React</p>
                 <p className="mt-5 span-sec">5 PROJECTS</p>

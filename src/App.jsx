@@ -7,6 +7,9 @@ import "./App.scss"
 import Resume from "./components/Resume";
 import Speciallization from "./components/Speciallization";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Pricing from "./components/Pricing";
+import Portfolio from "./components/Portfolio";
 function App(){
   return(
     <div>
@@ -23,6 +26,10 @@ function App(){
             <Resume />
             <Speciallization />
             <Skills />
+            <Portfolio />
+            <Pricing />
+            {/* <Contact /> */}
+
         </div>
         <div className="navbar">
           <Navbar />

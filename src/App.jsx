@@ -28,7 +28,7 @@ function App(){
             <Skills />
             <Portfolio />
             <Pricing />
-            {/* <Contact /> */}
+            <Contact />
 
         </div>
         <div className="navbar">

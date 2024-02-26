@@ -88,3 +88,42 @@ img{
     height: 35vh;
     width: auto;
 }
+.input-style{
+    background: none;
+    // border-bottom: 1px solid $borderColor;
+    &:focus{
+        outline: none;
+    }
+}
+.txt-area{
+    background: none;
+    border-bottom: 1px solid $borderColor;
+    &:focus{
+        outline: none;
+    }
+}
+.input-head{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-message{
+    text-transform: uppercase;
+    background-color: $primary-color;
+    margin-top: 20px;
+    padding: 7px 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    border: 1px solid $primary-color;
+    color: black;
+    &:hover{
+        background-color: transparent;
+        border : 1px solid $primary-color;
+        color: $primary-color;
+        // background: none;
+    }
+}

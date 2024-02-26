@@ -8,7 +8,6 @@ import { RiShapesFill } from "react-icons/ri";
 import { FaGripVertical } from "react-icons/fa";
 import { BiDollar } from "react-icons/bi";
 import { SiMinutemailer } from "react-icons/si";
-import { BiMessage } from "react-icons/bi";
 
 
 function Navbar(){
@@ -22,7 +21,6 @@ function Navbar(){
         <a href=""><li><FaBarsStaggered /></li></a>
         <a href=""><li><RiShapesFill /></li></a>
         <a href=""><li><FaGripVertical /></li></a>
-        <a href=""><li><BiMessage /></li></a>
         <a href=""><li><BiDollar /></li></a>
         <a href=""><li><SiMinutemailer /></li></a>
 

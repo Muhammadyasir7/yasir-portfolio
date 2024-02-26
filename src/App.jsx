@@ -16,9 +16,9 @@ function App(){
       <video  autoPlay muted loop className="bg-video">
         <source src={VIDEO} />
       </video>
-      <div className="h-full flex justify-between ">
-      <aside className="fixed">
-          <Sidebar className="" />
+      <div className="h-full flex justify-between main">
+      <aside className="fixed sidebarr">
+          <Sidebar/>
         </aside>
         <div className="width-half">
             <Home />

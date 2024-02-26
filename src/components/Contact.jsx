@@ -16,24 +16,33 @@ function Contact() {
       <div>
         <p>optimisticyasir@outlook.com</p>
       </div>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-7 my-10">
         <div className="flex flex-col">
-          <label htmlFor="input">full Name</label>
-          <input type="text" maxLength={50} />
+          <label htmlFor="input" className="input-head">full Name</label>
+          <input type="text" maxLength={30} placeholder="Your Full Name" className="input-style" />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="input">Email</label>
-          <input type="email" maxLength={50} />
+          <label htmlFor="input" className="input-head">Email</label>
+          <input type="email" maxLength={30} placeholder="Your Email Address" className="input-style" />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="input">Phone</label>
-          <input type="email" maxLength={50} />
+          <label htmlFor="input" className="input-head">Phone</label>
+          <input type="number" maxLength={50} placeholder="Your mob num" className="input-style" />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="input">Subject</label>
-          <input type="email" maxLength={50} />
+          <label htmlFor="input" className="input-head">Subject</label>
+          <input type="select" maxLength={50} className="input-style" />
+        </div>
+        <div className="flex flex-col">
+          <label htmlFor="input" className="input-head">Your Budget</label>
+          <input type="number" placeholder="0" maxLength={50} className="input-style" />
         </div>
       </div>
+      <div className="flex flex-col">
+        <label htmlFor="textarea" className="input-head">Message</label>
+        <textarea className="txt-area resize-none" placeholder="Write your messages here" name="" id="" cols="30" rows="5"></textarea>
+      </div>
+      <button className="btn-message">send message</button>
     </div>
   );
 }
